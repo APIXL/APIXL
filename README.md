@@ -1,7 +1,3 @@
-Creating a whitepaper for "Chaos Bravery," an NFT-based Collectible Card Game (CCG), involves outlining the game's concept, mechanics, and the integration of blockchain technology. Below is a structured draft for the whitepaper.
-
----
-
 # **Chaos Bravery: A Next-Generation NFT Collectible Card Game**
 
 ## **Abstract**
