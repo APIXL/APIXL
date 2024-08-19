@@ -65,13 +65,13 @@ var app = new Vue({
             // Transition groups perhaps? (https://codepen.io/shshaw/pen/aWdjWV)
             {
                 id: 0,
-                name: 'Test',
-                artist: 'Test',
+                name: 'APIX',
+                artist: 'APIX',
                 desc: '',
-                cost: 0,
-                catg: 'Test',
-                img: 'https://picsum.photos/600/?random',
-                date: '0'
+                cost: 0.1,
+                catg: 'Female',
+                img: './img/apix_1.png',
+                date: '19 Aug 2024'
             }
         ],
         filteredProducts: [],
