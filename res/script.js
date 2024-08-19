@@ -22,7 +22,7 @@ Vue.component('productComp', {
                             <p>{{info.name}}</p>
                             <p class="product-artist">{{info.artist}}</p>
                         </div>
-                        <div class="vert-center product-cost">\${{info.cost}}</div>
+                        <div class="vert-center product-cost">\{{info.cost}} WETH</div>
                     </div>
                 </div>`,
     props: {
