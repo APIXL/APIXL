@@ -65,7 +65,7 @@ var app = new Vue({
             // Transition groups perhaps? (https://codepen.io/shshaw/pen/aWdjWV)
             {
                 id: 0,
-                name: 'APIX',
+                name: 'APIX #1',
                 artist: 'APIX',
                 desc: '',
                 cost: 0.1,
