@@ -21,7 +21,7 @@ Vue.component('productComp', {
                         <div class="rela-block">
                             <p>{{info.name}}</p>
                             <p class="product-artist">{{info.artist}}</p>
-                        </div>
+                        </div><br>
                         <div class="vert-center product-cost">\{{info.cost}}WETH</div>
                     </div>
                 </div>`,
