@@ -22,7 +22,7 @@ Vue.component('productComp', {
                             <p>{{info.name}}</p>
                             <p class="product-artist">{{info.artist}}</p>
                         </div>
-                        <div class="vert-center product-cost">\{{info.cost}} WETH</div>
+                        <div class="vert-center product-cost">\{{info.cost}}WETH</div>
                     </div>
                 </div>`,
     props: {
@@ -64,14 +64,95 @@ var app = new Vue({
             // Hacky I know. I'll figure out the Vue way to do this later :/
             // Transition groups perhaps? (https://codepen.io/shshaw/pen/aWdjWV)
             {
-                id: 0,
-                name: 'APIX #1',
-                artist: 'APIX',
-                desc: '',
-                cost: 0.1,
-                catg: 'Female',
-                img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/apix_1.png',
-                date: '19 Aug 2024'
+              id: 1,
+              name: 'APIXL #1',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Female',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%231.png',
+              date: '19 Aug 2024'
+            },{
+              id: 2,
+              name: 'APIXL #2',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Male',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%232.png',
+              date: '19 Aug 2024'
+            },{
+              id: 3,
+              name: 'APIXL #3',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Female',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%233.png',
+              date: '19 Aug 2024'
+            },{
+              id: 4,
+              name: 'APIXL #4',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Male',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%234.png',
+              date: '19 Aug 2024'
+            },{
+              id: 5,
+              name: 'APIXL #5',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Female',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%235.png',
+              date: '19 Aug 2024'
+            },{
+              id: 6,
+              name: 'APIXL #6',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Male',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%236.png',
+              date: '19 Aug 2024'
+            },{
+              id: 7,
+              name: 'APIXL #7',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Female',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%237.png',
+              date: '19 Aug 2024'
+            },{
+              id: 8,
+              name: 'APIXL #8',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Male',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%238.png',
+              date: '19 Aug 2024'
+            },{
+              id: 9,
+              name: 'APIXL #9',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Female',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%239.png',
+              date: '19 Aug 2024'
+            },{
+              id: 10,
+              name: 'APIXL #10',
+              artist: 'Fahira Anita Salsabila',
+              desc: '',
+              cost: 1,
+              catg: 'Male',
+              img: 'https://raw.githubusercontent.com/APIXL/APIXL/main/res/img/APIXL%20%2310.png',
+              date: '19 Aug 2024'
             }
         ],
         filteredProducts: [],
@@ -143,4 +224,4 @@ var app = new Vue({
 app.init();
 
 // Scroll Function
-// window.addEventListener('scroll', function() { app.pageScrolled = (window.scrollY > 0); }, false)
+// window.addEventListener('scroll', function() { app.pageScrolled = (window.scrollY > 0); }, false);
