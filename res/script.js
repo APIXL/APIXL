@@ -70,7 +70,7 @@ var app = new Vue({
                 desc: '',
                 cost: 0.1,
                 catg: 'Female',
-                img: './img/apix_1.png',
+                img: 'https://github.com/APIXL/APIXL/blob/main/res/img/apix_1.png',
                 date: '19 Aug 2024'
             }
         ],
